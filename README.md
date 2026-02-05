@@ -12,7 +12,7 @@
 
 ## TL;DR
 
-EMA-PG improves reinforcement learning for LLMs with two simple techniques: **(1) EMA Anchor** replaces fixed reference policies with an exponential moving average, and **(2) Top-k KL** provides memory-efficient KL estimation with unbiased gradients. We demonstrate improvements on math reasoning and agentic search benchmarks.
+EMA-PG improves RL for LLMs with two simple techniques: **(1) EMA Anchor** replaces fixed reference policies with an exponential moving average, and **(2) Top-k KL** is a memory-efficient KL estimator that works like knowledge distillation using Top-k logits. We demonstrate improvements on math reasoning and agentic search benchmarks.
 
 ## Table of Contents
 
